@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+   
+}
+
+.border{
+    border-style: solid;
+    width: 99.6%;
+    height: 65px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-size: 25px;
+}
+nav{
+    margin-top: 14px;
+
+}
+
+.logo{
+    width: 68px;
+    height: 68px;
+    float: right;
+}
+
+a:hover{
+    color: rgb(240, 155, 44);
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(255, 254, 254);
+    transition: 0.3s;
+    width: 40%;
+    
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+  }
+
+.container {
+    
+    float: right;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    margin-right: 7vh;
+   
+}
